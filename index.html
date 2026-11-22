@@ -475,12 +475,12 @@
 
     function startTypewriter() {
       const box = document.getElementById('typedLetter');
-      box.textcontent = '';
+      box.TextContent = '';
       typeIdx = 0;
       if (typeInterval) clearInterval(typeInterval);
       typeInterval = setInterval(() => {
         if (typeIdx < letterContent.length) {
-          box.textcontent+= letterContent.charAt(typeIdx);
+          box.TextContent+= letterContent.charAt(typeIdx);
           typeIdx++;
         } else {
           clearInterval(typeInterval);
