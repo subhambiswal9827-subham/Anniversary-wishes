@@ -473,22 +473,21 @@
     let typeIdx = 0;
     let typeInterval = null;
 
-    function startTypewriter() {
+        function startTypewriter() {
       const box = document.getElementById('typedLetter');
-      box.TextContent = '';
+      box.textContent = '';
       typeIdx = 0;
       if (typeInterval) clearInterval(typeInterval);
       typeInterval = setInterval(() => {
         if (typeIdx < letterContent.length) {
-          box.TextContent+= letterContent.charAt(typeIdx);
+          box.textContent += letterContent.charAt(typeIdx);
           typeIdx++;
         } else {
           clearInterval(typeInterval);
         }
       }, 32);
     }
-
-    // Slide 5: Love Jar
+   // Slide 5: Love Jar
     function revealNote(el, msg) {
       el.innerText = msg;
       el.classList.add('revealed');
