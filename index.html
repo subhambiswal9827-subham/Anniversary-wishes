@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Happy 5 Months Anniversary Dhana ❤️</title>
+  <title>Happy 4 Months Anniversary Dhana ❤️</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -311,20 +311,20 @@
   <div class="card" id="slide1">
     <div class="gift-icon">🎁❤️</div>
     <h1>For My Dhana</h1>
-    <div class="subtitle">Celebrating 5 Months of Us ✨</div>
+    <div class="subtitle">Celebrating 4 Months of Us ✨</div>
     <p>Five months ago, my world became brighter, sweeter, and full of love. I made a little surprise just for you...</p>
     <button class="btn" onclick="goSlide(2)">Open Your Surprise 💌</button>
   </div>
 
-  <!-- SLIDE 2: 5 Months Seconds Counter -->
+  <!-- SLIDE 2: 4 Months Seconds Counter -->
   <div class="card hidden" id="slide2">
     <div class="subtitle">Every Second With You Counts</div>
-    <h1>5 Beautiful Months</h1>
+    <h1>4 Beautiful Months</h1>
     <div class="seconds-box">
       <div class="sec-number" id="secCounter">0</div>
       <div style="font-size: 0.85rem; color: #ffb3cd; margin-top: 6px;">Seconds of Pure Happiness ⏳</div>
     </div>
-    <p>That's 150 days, 3,600 hours, and 12,960,000 seconds of loving you endlessly.</p>
+    <p>That's 120 days, 2,880 hours, and 10,368,000 seconds of loving you endlessly.</p>
     <button class="btn" onclick="goSlide(3)">Next ➡️</button>
   </div>
 
@@ -356,7 +356,7 @@
     <h1>Little Notes For You</h1>
     <div class="note-pill" onclick="revealNote(this, '🌸 You are the first person I want to share every happy news with.')">Tap to open Note #1 ❤️</div>
     <div class="note-pill" onclick="revealNote(this, '✨ Even on my hardest days, one smile from you fixes everything.')">Tap to open Note #2 ❤️</div>
-    <div class="note-pill" onclick="revealNote(this, '♾️ If I had to live these 5 months all over again, I would still choose you every single time.')">Tap to open Note #3 ❤️</div>
+    <div class="note-pill" onclick="revealNote(this, '♾️ If I had to live these 4 months all over again, I would still choose you every single time.')">Tap to open Note #3 ❤️</div>
     <button class="btn" style="margin-top:12px;" onclick="goSlide(6)">One Special Question 💍</button>
   </div>
 
@@ -371,7 +371,7 @@
       <div class="upload-badge">📸 Tap here to change photo</div>
       <input type="file" id="photoInput" accept="image/*" class="hidden" onchange="loadUserPhoto(event)" />
     </div>
-    <p>5 months down, a lifetime to go. Will you keep being mine in every universe?</p>
+    <p>4 months down, a lifetime to go. Will you keep being mine in every universe?</p>
     <button class="btn" onclick="triggerFinale()">Yes, Always & Forever! 💖</button>
   </div>
 
@@ -379,9 +379,9 @@
   <div class="card hidden" id="slide7">
     <div class="subtitle">Virtual Hug For You</div>
     <div class="hug-emoji">🫂❤️</div>
-    <h1>Happy 5 Months Anniversary!</h1>
+    <h1>Happy 4 Months Anniversary!</h1>
     <div class="dhana-title">I Love You Dhana</div>
-    <p>Thank you for 12,960,000 magical seconds. Here's to forever together! 🥂✨</p>
+    <p>Thank you for 10,368,000 magical seconds. Here's to forever together! 🥂✨</p>
     <button class="btn" onclick="celebrateBurst()">Send More Love 🎉</button>
     <button class="btn btn-no" onclick="goSlide(1)">Replay ↺</button>
   </div>
@@ -420,11 +420,11 @@
       if (num === 4) startTypewriter();
     }
 
-    // Slide 2: Animate up to 12,960,000 seconds (5 Months)
+    // Slide 2: Animate up to 10,368,000 seconds (4 Months)
     function startSecondsAnimation() {
       if (liveTimer) clearInterval(liveTimer);
-      const target = 12960000;
-      let current = 12900000;
+      const target = 10368000;
+      let current = 1036000;
       const el = document.getElementById('secCounter');
       const step = Math.ceil((target - current) / 45);
 
@@ -469,7 +469,7 @@
     }
 
     // Slide 4: Typewriter Letter
-    const letterContent = "Happy 5 Months Anniversary my love! ❤️\n\nThese past 5 months have been the best chapter of my life. Thank you for every smile, every late-night talk, and for always standing by me.\n\nNo matter what happens, my heart will always belong to you. Forever yours.";
+    const letterContent = "Happy 4 Months Anniversary my love! ❤️\n\nThese past 4 months have been the best chapter of my life. Thank you for every smile, every late-night talk, and for always standing by me.\n\nNo matter what happens, my heart will always belong to you. Forever yours.";
     let typeIdx = 0;
     let typeInterval = null;
 
